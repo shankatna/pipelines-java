@@ -42,17 +42,18 @@
       </plugin>
     </plugins>
   </build>
-
-<repository>
-  <id>firstfeed</id>
-  <url>https://pkgs.dev.azure.com/shantech/ProjTest/_packaging/firstfeed/maven/v1</url>
-  <releases>
-    <enabled>true</enabled>
-  </releases>
-  <snapshots>
-    <enabled>true</enabled>
-  </snapshots>
-</repository>	
+<repositories>
+  <repository>
+    <id>firstfeed</id>
+    <url>https://pkgs.dev.azure.com/shantech/ProjTest/_packaging/firstfeed/maven/v1</url>
+    <releases>
+      <enabled>true</enabled>
+    </releases>
+    <snapshots>
+      <enabled>true</enabled>
+    </snapshots>
+  </repository>
+</repositories>	
 	
   <properties>
     <maven.compiler.source>1.8</maven.compiler.source>
